@@ -1,4 +1,4 @@
-FROM cydev/go
+FROM golang
 RUN go get github.com/chrislusf/seaweedfs/go/weed
 EXPOSE 8080
 EXPOSE 9333
